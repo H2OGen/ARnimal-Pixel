@@ -1,0 +1,245 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void ARGameManager::Speak(System.String)
+extern void ARGameManager_Speak_m26CFC9B6DBD115DF97FA4D68C335922CAF1EC89C (void);
+// 0x00000002 System.Void ARGameManager::MoveScene(System.String)
+extern void ARGameManager_MoveScene_m618820779BC4FE5E585A8CE443B5524E825B6850 (void);
+// 0x00000003 System.Void ARGameManager::.ctor()
+extern void ARGameManager__ctor_mA383C3ADC731444DDBF396FA67BE9BC6D073CD1C (void);
+// 0x00000004 System.Void AudioController::PlaySFX()
+extern void AudioController_PlaySFX_m08A7F83E9CCFB98B6348F3490894AE94D843779F (void);
+// 0x00000005 System.Void AudioController::PlaySFXInput(UnityEngine.AudioSource)
+extern void AudioController_PlaySFXInput_mD48216681E873DE73814F924E71F08BE7C28EB2B (void);
+// 0x00000006 System.Void AudioController::.ctor()
+extern void AudioController__ctor_mFA3B1A7ABCF968342450C930C49BF529630977F1 (void);
+// 0x00000007 System.Void Cell::Awake()
+extern void Cell_Awake_m1D88298D73FA16EF279B6540644154C81277A9AB (void);
+// 0x00000008 System.Void Cell::TrueCell()
+extern void Cell_TrueCell_m89137B9EA0EB07A93B5C691BEF48445BA2EFB205 (void);
+// 0x00000009 System.Void Cell::FalseCell()
+extern void Cell_FalseCell_m8D3352ACD1098173E44CFFC1E4AF9783F2AA94B7 (void);
+// 0x0000000A System.Void Cell::BlockOn()
+extern void Cell_BlockOn_m95D3229880CED9FC29B52B84A5AB3F2239160F92 (void);
+// 0x0000000B System.Void Cell::.ctor()
+extern void Cell__ctor_m46B529AC926B052FF62C750561098BAB4321350F (void);
+// 0x0000000C System.Void GameManager::Awake()
+extern void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F (void);
+// 0x0000000D System.Void GameManager::Update()
+extern void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (void);
+// 0x0000000E System.Void GameManager::.ctor()
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+// 0x0000000F System.Void InUIManager::Update()
+extern void InUIManager_Update_mC01AB61574CE02982409B429BE397FD0985EB98B (void);
+// 0x00000010 System.Void InUIManager::Win()
+extern void InUIManager_Win_m6D2E78E1F5B7ADB5EBFA4F28439971ABFC632DD6 (void);
+// 0x00000011 System.Void InUIManager::Lose()
+extern void InUIManager_Lose_m518BDCFB41DD1DDDE803ED1E2F299BE58DE02FCE (void);
+// 0x00000012 System.Void InUIManager::ShowMenu()
+extern void InUIManager_ShowMenu_m373A0833ECCA1C8BEBC238F51A4AF7C8E1982A1E (void);
+// 0x00000013 System.Void InUIManager::HideMenu()
+extern void InUIManager_HideMenu_m30FCCEC0AB58177C450DE3CC543F02A204DC1E66 (void);
+// 0x00000014 System.Void InUIManager::MoveScene(System.String)
+extern void InUIManager_MoveScene_mDC92BE9485E68D57999A7145CF5BCE5CC996481F (void);
+// 0x00000015 System.Void InUIManager::Restart()
+extern void InUIManager_Restart_mD9B8435CEACFAAB900F349DF0F5A7F16E33E8F6E (void);
+// 0x00000016 System.Void InUIManager::.ctor()
+extern void InUIManager__ctor_m5721A61573CAA5797440B35D19EB6E77B6BFA728 (void);
+// 0x00000017 System.Void LevelUpdater::Start()
+extern void LevelUpdater_Start_mDD9DB4455843C38E3F846041AE16F9BBCD61EDC4 (void);
+// 0x00000018 System.Void LevelUpdater::UpdateLevelCompletion(System.Int32,System.Boolean)
+extern void LevelUpdater_UpdateLevelCompletion_mDBAAD76F3804C15F33647AA8A9D39B448D53A8BF (void);
+// 0x00000019 System.String LevelUpdater::ReadJsonData()
+extern void LevelUpdater_ReadJsonData_m1007E70844A4A5C62916453857DE1158DBAE8F54 (void);
+// 0x0000001A System.Void LevelUpdater::SaveJsonData(LevelData)
+extern void LevelUpdater_SaveJsonData_m29FAF0D9F5DE1E881CC5CC5447A6360C9A604C7E (void);
+// 0x0000001B System.Void LevelUpdater::.ctor()
+extern void LevelUpdater__ctor_m6C5CB7D20970711E0966F66B801BFF7E69AF5FE0 (void);
+// 0x0000001C System.Void LevelUpdater/<>c__DisplayClass2_0::.ctor()
+extern void U3CU3Ec__DisplayClass2_0__ctor_m2C862543DD97B9D6EF9CC9CA76559B9B12ACC3C5 (void);
+// 0x0000001D System.Boolean LevelUpdater/<>c__DisplayClass2_0::<UpdateLevelCompletion>b__0(Level)
+extern void U3CU3Ec__DisplayClass2_0_U3CUpdateLevelCompletionU3Eb__0_m3A48C89A875961F018F60F3132A2CE6478C09C71 (void);
+// 0x0000001E System.Void NewDebug::Awake()
+extern void NewDebug_Awake_mFA1A3A69E6876D14DAD7B0FEBB710922B278322F (void);
+// 0x0000001F System.Void NewDebug::.ctor()
+extern void NewDebug__ctor_mA77DAABF759697839E59FA3700D9BA51464319EA (void);
+// 0x00000020 System.Void NewDebug::<Awake>b__1_0(System.String,System.String,UnityEngine.LogType)
+extern void NewDebug_U3CAwakeU3Eb__1_0_m4EC0A78886D9652D710BF23D075C5C483B99B3A4 (void);
+// 0x00000021 System.Void FullChecker::Start()
+extern void FullChecker_Start_mAAEBDD5EB1D2321E0114270699D17F32B257F8DA (void);
+// 0x00000022 System.Void FullChecker::.ctor()
+extern void FullChecker__ctor_m3BF3D5B6E9A818F26912E60BAF6AC88D4D6C8834 (void);
+// 0x00000023 System.Void LevelData::.ctor()
+extern void LevelData__ctor_m923000759B849E6F472A21ECEDD12006D85EDEDD (void);
+// 0x00000024 System.Void Level::.ctor(System.Int32,System.Boolean)
+extern void Level__ctor_m111BCFFAD7946570BE7181BD806D80D79ED90B3F (void);
+// 0x00000025 System.Void LevelChecker::Start()
+extern void LevelChecker_Start_m6B90480A56889C2D67E3276F18F15EB09CFCDF1D (void);
+// 0x00000026 System.Void LevelChecker::ReadJsonData()
+extern void LevelChecker_ReadJsonData_m813C3411DB81469A48123CC2225E2B2D43F7EA4E (void);
+// 0x00000027 System.Void LevelChecker::SetupLevel(LevelData)
+extern void LevelChecker_SetupLevel_m919EEF40663455506FA51A0D096D9D58D79A922D (void);
+// 0x00000028 System.Void LevelChecker::.ctor()
+extern void LevelChecker__ctor_m6E17510CE6ADC347085E9A2A5AD24F6E21AA674E (void);
+// 0x00000029 System.Void OutUIManager::Update()
+extern void OutUIManager_Update_m095D86F963904B66AEDCFD205F5AFD67F4D02319 (void);
+// 0x0000002A System.Void OutUIManager::SwitchActive(UnityEngine.GameObject)
+extern void OutUIManager_SwitchActive_mAF892C0295D756C17EF1D5033AE1389D57B90C14 (void);
+// 0x0000002B System.Void OutUIManager::MoveScene(System.String)
+extern void OutUIManager_MoveScene_mB5496FC57525E5F6DAAEBAFF866F4772303D033C (void);
+// 0x0000002C System.Void OutUIManager::.ctor()
+extern void OutUIManager__ctor_m7BB344E4709519135383860148F2FD1307A7AB47 (void);
+// 0x0000002D System.Void TitleUIManager::Update()
+extern void TitleUIManager_Update_mB5193BEFF92FBC92E3E29468F0AEBDB344278725 (void);
+// 0x0000002E System.Void TitleUIManager::MoveScene(System.String)
+extern void TitleUIManager_MoveScene_m7B09D5BF7F87E60CC8AF6EFCF2B001A93046DB1A (void);
+// 0x0000002F System.Void TitleUIManager::ExitApp()
+extern void TitleUIManager_ExitApp_m27941EB2A41B6A6CE784E36B19C4011B1C842841 (void);
+// 0x00000030 System.Void TitleUIManager::SwitchActive(UnityEngine.GameObject)
+extern void TitleUIManager_SwitchActive_mA7A9FD30503637F129988A4BA8AAB236B67DD9D9 (void);
+// 0x00000031 System.Void TitleUIManager::.ctor()
+extern void TitleUIManager__ctor_m36D927E7D059BB416C1F1B062E7EF0A0F088495B (void);
+// 0x00000032 System.String VuforiaLicense::GetLicenseKey()
+extern void VuforiaLicense_GetLicenseKey_m8E6E03709CDB6968425A93FB9D016DA6AFC6C91B (void);
+// 0x00000033 System.Void VuforiaLicense::.ctor()
+extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
+static Il2CppMethodPointer s_methodPointers[51] = 
+{
+	ARGameManager_Speak_m26CFC9B6DBD115DF97FA4D68C335922CAF1EC89C,
+	ARGameManager_MoveScene_m618820779BC4FE5E585A8CE443B5524E825B6850,
+	ARGameManager__ctor_mA383C3ADC731444DDBF396FA67BE9BC6D073CD1C,
+	AudioController_PlaySFX_m08A7F83E9CCFB98B6348F3490894AE94D843779F,
+	AudioController_PlaySFXInput_mD48216681E873DE73814F924E71F08BE7C28EB2B,
+	AudioController__ctor_mFA3B1A7ABCF968342450C930C49BF529630977F1,
+	Cell_Awake_m1D88298D73FA16EF279B6540644154C81277A9AB,
+	Cell_TrueCell_m89137B9EA0EB07A93B5C691BEF48445BA2EFB205,
+	Cell_FalseCell_m8D3352ACD1098173E44CFFC1E4AF9783F2AA94B7,
+	Cell_BlockOn_m95D3229880CED9FC29B52B84A5AB3F2239160F92,
+	Cell__ctor_m46B529AC926B052FF62C750561098BAB4321350F,
+	GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F,
+	GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41,
+	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	InUIManager_Update_mC01AB61574CE02982409B429BE397FD0985EB98B,
+	InUIManager_Win_m6D2E78E1F5B7ADB5EBFA4F28439971ABFC632DD6,
+	InUIManager_Lose_m518BDCFB41DD1DDDE803ED1E2F299BE58DE02FCE,
+	InUIManager_ShowMenu_m373A0833ECCA1C8BEBC238F51A4AF7C8E1982A1E,
+	InUIManager_HideMenu_m30FCCEC0AB58177C450DE3CC543F02A204DC1E66,
+	InUIManager_MoveScene_mDC92BE9485E68D57999A7145CF5BCE5CC996481F,
+	InUIManager_Restart_mD9B8435CEACFAAB900F349DF0F5A7F16E33E8F6E,
+	InUIManager__ctor_m5721A61573CAA5797440B35D19EB6E77B6BFA728,
+	LevelUpdater_Start_mDD9DB4455843C38E3F846041AE16F9BBCD61EDC4,
+	LevelUpdater_UpdateLevelCompletion_mDBAAD76F3804C15F33647AA8A9D39B448D53A8BF,
+	LevelUpdater_ReadJsonData_m1007E70844A4A5C62916453857DE1158DBAE8F54,
+	LevelUpdater_SaveJsonData_m29FAF0D9F5DE1E881CC5CC5447A6360C9A604C7E,
+	LevelUpdater__ctor_m6C5CB7D20970711E0966F66B801BFF7E69AF5FE0,
+	U3CU3Ec__DisplayClass2_0__ctor_m2C862543DD97B9D6EF9CC9CA76559B9B12ACC3C5,
+	U3CU3Ec__DisplayClass2_0_U3CUpdateLevelCompletionU3Eb__0_m3A48C89A875961F018F60F3132A2CE6478C09C71,
+	NewDebug_Awake_mFA1A3A69E6876D14DAD7B0FEBB710922B278322F,
+	NewDebug__ctor_mA77DAABF759697839E59FA3700D9BA51464319EA,
+	NewDebug_U3CAwakeU3Eb__1_0_m4EC0A78886D9652D710BF23D075C5C483B99B3A4,
+	FullChecker_Start_mAAEBDD5EB1D2321E0114270699D17F32B257F8DA,
+	FullChecker__ctor_m3BF3D5B6E9A818F26912E60BAF6AC88D4D6C8834,
+	LevelData__ctor_m923000759B849E6F472A21ECEDD12006D85EDEDD,
+	Level__ctor_m111BCFFAD7946570BE7181BD806D80D79ED90B3F,
+	LevelChecker_Start_m6B90480A56889C2D67E3276F18F15EB09CFCDF1D,
+	LevelChecker_ReadJsonData_m813C3411DB81469A48123CC2225E2B2D43F7EA4E,
+	LevelChecker_SetupLevel_m919EEF40663455506FA51A0D096D9D58D79A922D,
+	LevelChecker__ctor_m6E17510CE6ADC347085E9A2A5AD24F6E21AA674E,
+	OutUIManager_Update_m095D86F963904B66AEDCFD205F5AFD67F4D02319,
+	OutUIManager_SwitchActive_mAF892C0295D756C17EF1D5033AE1389D57B90C14,
+	OutUIManager_MoveScene_mB5496FC57525E5F6DAAEBAFF866F4772303D033C,
+	OutUIManager__ctor_m7BB344E4709519135383860148F2FD1307A7AB47,
+	TitleUIManager_Update_mB5193BEFF92FBC92E3E29468F0AEBDB344278725,
+	TitleUIManager_MoveScene_m7B09D5BF7F87E60CC8AF6EFCF2B001A93046DB1A,
+	TitleUIManager_ExitApp_m27941EB2A41B6A6CE784E36B19C4011B1C842841,
+	TitleUIManager_SwitchActive_mA7A9FD30503637F129988A4BA8AAB236B67DD9D9,
+	TitleUIManager__ctor_m36D927E7D059BB416C1F1B062E7EF0A0F088495B,
+	VuforiaLicense_GetLicenseKey_m8E6E03709CDB6968425A93FB9D016DA6AFC6C91B,
+	VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B,
+};
+static const int32_t s_InvokerIndices[51] = 
+{
+	4083,
+	4083,
+	5154,
+	5154,
+	4083,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	5154,
+	4083,
+	5154,
+	5154,
+	5154,
+	2059,
+	5049,
+	4083,
+	5154,
+	5154,
+	2940,
+	5154,
+	5154,
+	1264,
+	5154,
+	5154,
+	5154,
+	2059,
+	5154,
+	5154,
+	4083,
+	5154,
+	5154,
+	4083,
+	4083,
+	5154,
+	5154,
+	4083,
+	5154,
+	4083,
+	5154,
+	7642,
+	5154,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	51,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

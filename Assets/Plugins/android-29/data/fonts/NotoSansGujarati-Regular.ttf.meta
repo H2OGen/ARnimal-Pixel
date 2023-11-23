@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ba560ca5cc2b29041932f4d4a6412c4e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans Gujarati103uh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 78ce084c54aed4048a56a37473e54915, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

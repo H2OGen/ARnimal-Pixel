@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ea3cf78aed34b60438cf04b5c6c38f53
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Source Sans Pro2021PS2000hotconv1086makeotflib2563406
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f2c574a7bcb230e4d9eb025ab613e08e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

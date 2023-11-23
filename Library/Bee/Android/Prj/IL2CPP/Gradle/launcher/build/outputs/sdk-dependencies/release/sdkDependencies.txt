@@ -1,0 +1,119 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    groupId: "com.google.ar"
+    artifactId: "core"
+    version: "1.22.0"
+  }
+  digests {
+    sha256: "\016\251V\036:H\023v\257G\324T`\035\3747|\351\002\242\000\326dr\244\252V\224\223|\337u"
+  }
+}
+library {
+  maven_library {
+    artifactId: "VuforiaEngine"
+  }
+  digests {
+    sha256: "\215\343\026\310\201\177\270\360\022\254\372;\2467`\342L~dvI\200\003;\244d\301\022\237>\356\362"
+  }
+}
+library {
+  digests {
+    sha256: "\340r\270\213\257\266p\252\206u\324\353\341\223\364\204\375y~\212\303\307\006\336\327\031g<B(\b\027"
+  }
+}
+library {
+  digests {
+    sha256: "\004s/E\311\021\a/[\256\234\360\271\247\332\203**\345,\256]\220\245\325J&\344x\362\352d"
+  }
+}
+library {
+  digests {
+    sha256: "\026\240\346C&\362D\260\212<\353\221o\326b\3654\003\312\325[\272\331/K\244\261\027\215\323\326\314"
+  }
+}
+library {
+  digests {
+    sha256: "\324\316\r\252\341iZ\274t\227\000\234a#\177wOR\306\377\334\"\'\204\340?`\357\373\221u2"
+  }
+}
+library {
+  digests {
+    sha256: "\204n\024\304\360\221=\000\221B+y\3543\243\214\245drp\005J\333b!./V\224\276\201\226"
+  }
+}
+library {
+  digests {
+    sha256: "\277\265K@\307\231\f\215\2435\200\276\346\335e\275\361\240\274\357#\032\261>\303\247\\j\306\353\330\374"
+  }
+}
+library {
+  digests {
+    sha256: "\271U\320\3476qM\225BYo7\322\016\210\345\026+u(\000\270\006O\004f\241\3371z\v\322"
+  }
+}
+library {
+  digests {
+    sha256: "\325/0\303P\307\365\311 \345H\212\034\037\340`#x\001\005E\n\213\305\311\206\236Y\200\301\245\305"
+  }
+}
+library {
+  digests {
+    sha256: "D\036\334\031\336%?\ve>\027\341% I\027\t~\227\vSe\304i\354\b\3514\fS\223\347"
+  }
+}
+library {
+  digests {
+    sha256: "2\240y\022\246\276\327h\t\016am\030m2uI\237n\357\304V[lZ\345\367\257K\002\017\371"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+library_dependencies {
+  library_index: 3
+}
+library_dependencies {
+  library_index: 4
+}
+library_dependencies {
+  library_index: 5
+}
+library_dependencies {
+  library_index: 6
+}
+library_dependencies {
+  library_index: 7
+}
+library_dependencies {
+  library_index: 8
+}
+library_dependencies {
+  library_index: 9
+}
+library_dependencies {
+  library_index: 10
+}
+library_dependencies {
+  library_index: 11
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 2
+  dependency_index: 3
+  dependency_index: 4
+  dependency_index: 5
+  dependency_index: 6
+  dependency_index: 7
+  dependency_index: 8
+  dependency_index: 9
+  dependency_index: 10
+  dependency_index: 11
+}

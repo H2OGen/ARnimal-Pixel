@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: aba14922b92250641ae1ab25e104aa11
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans Ethiopic108uh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 72c7729c8aac7164cb1ee6679dbf85f6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ea60dddbb2d8cfb49979376e8d74d5eb
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans Kannada104uh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d785ddb011909534192a51f2fd0226de, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

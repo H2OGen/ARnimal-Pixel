@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="10154"
+6    android:versionName="10.15.4" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="28"
+9-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00020000" />
+12-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-52
+12-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-49
+13
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-63
+14-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:20-60
+15
+16    <uses-feature
+16-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-83
+17        android:name="android.hardware.camera"
+17-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-55
+18        android:required="false" />
+18-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:56-80
+19    <uses-feature
+19-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-93
+20        android:name="android.hardware.camera.autofocus"
+20-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-65
+21        android:required="false" />
+21-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:66-90
+22    <uses-feature
+22-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-89
+23        android:name="android.hardware.camera.front"
+23-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-61
+24        android:required="false" />
+24-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:62-86
+25    <uses-feature
+25-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-88
+26        android:name="android.hardware.touchscreen"
+26-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-60
+27        android:required="false" />
+27-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:61-85
+28    <uses-feature
+28-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-99
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-71
+30        android:required="false" />
+30-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:72-96
+31    <uses-feature
+31-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-108
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-80
+33        android:required="false" />
+33-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:81-105
+34
+35    <application android:extractNativeLibs="true" >
+35-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-18:17
+35-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+36        <activity
+36-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+37            android:name="com.unity3d.player.UnityPlayerActivity"
+37-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+38            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+38-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+39            android:hardwareAccelerated="false"
+39-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+40            android:launchMode="singleTask"
+40-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+41            android:resizeableActivity="false"
+41-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+42            android:screenOrientation="portrait"
+42-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+43            android:theme="@style/UnityThemeSelector" >
+43-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+44            <intent-filter>
+44-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+45-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+47-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+48            </intent-filter>
+49
+50            <meta-data
+50-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+51                android:name="unityplayer.UnityActivity"
+51-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+52                android:value="true" />
+52-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+53            <meta-data
+53-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+54                android:name="android.notch_support"
+54-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+55                android:value="true" />
+55-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+56        </activity>
+57
+58        <meta-data
+58-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+59            android:name="unity.splash-mode"
+59-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+60            android:value="0" />
+60-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+61        <meta-data
+61-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+62            android:name="unity.splash-enable"
+62-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+63            android:value="True" />
+63-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+64        <meta-data
+64-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+65            android:name="unity.launch-fullscreen"
+65-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+66            android:value="True" />
+66-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+67        <meta-data
+67-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+68            android:name="unity.allow-resizable-window"
+68-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+69            android:value="False" />
+69-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+70        <meta-data
+70-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+71            android:name="notch.config"
+71-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+72            android:value="portrait|landscape" />
+72-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+73        <meta-data
+73-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-77
+74            android:name="com.google.ar.core"
+74-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-49
+75            android:value="optional" />
+75-->D:\Binus Lesson\Enrichment\App\ARnimal Pixel\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:50-74
+76    </application>
+77
+78</manifest>

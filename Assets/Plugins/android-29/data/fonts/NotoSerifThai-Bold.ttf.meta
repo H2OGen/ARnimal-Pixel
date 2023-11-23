@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dba9209704afa6e4f8f3f464c013425e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Serif Thai104uh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e901dcd6128116c4d9fff4f68610253a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

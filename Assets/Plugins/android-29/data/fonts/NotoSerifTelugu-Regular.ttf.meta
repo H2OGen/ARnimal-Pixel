@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7ce997299603e1c4784d91a1b3671e93
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Serif Telugu101uh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 05e88e26c4154d6438f1c310bbe07fd3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

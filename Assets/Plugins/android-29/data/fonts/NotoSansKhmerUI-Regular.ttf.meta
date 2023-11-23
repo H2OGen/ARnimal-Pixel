@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ba75e288c5b9b5649a39c683f03c767b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans Khmer UI104uh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f2e4d4da20fc87f448794ee8f7f0d87a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

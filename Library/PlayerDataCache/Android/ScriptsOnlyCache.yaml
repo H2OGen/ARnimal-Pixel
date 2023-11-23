@@ -1,0 +1,4978 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - ARGameManager
+    - AudioController
+    - Cell
+    - FullChecker
+    - GameManager
+    - InUIManager
+    - LevelChecker
+    - LevelUpdater
+    - NewDebug
+    - OutUIManager
+    - TitleUIManager
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Toggle
+    Vuforia.Unity.Engine.dll:
+    - Vuforia.AnchorBehaviour
+    - Vuforia.AnchorInputListenerBehaviour
+    - Vuforia.AnchorPreview
+    - Vuforia.ContentPositioningBehaviour
+    - Vuforia.PlaneFinderBehaviour
+    - Vuforia.VuforiaBehaviour
+    - Vuforia.VuforiaConfiguration
+    VuforiaScripts.dll:
+    - DefaultInitializationErrorHandler
+    - DefaultObserverEventHandler
+  serializedClasses:
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+    Vuforia.Unity.Engine:
+    - Vuforia.AnchorInputListenerBehaviour/InputReceivedEvent
+    - Vuforia.ContentPlacedEvent
+    - Vuforia.HitTestEvent
+    - Vuforia.VuforiaConfiguration/DatabaseConfiguration
+    - Vuforia.VuforiaConfiguration/DeviceTrackerConfiguration
+    - Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration
+    - Vuforia.VuforiaConfiguration/PackageInfo
+    - Vuforia.VuforiaConfiguration/PlayModeConfiguration
+    - Vuforia.VuforiaConfiguration/RequiredShaders
+    - Vuforia.VuforiaConfiguration/VideoBackgroundConfiguration
+    - Vuforia.VuforiaConfiguration/WebCamConfiguration
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: TitleUIManager
+    methodName: ExitApp
+  - assembly: Assembly-CSharp
+    fullTypeName: TitleUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: TitleUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: TitleUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: SwitchActive
+  - assembly: Assembly-CSharp
+    fullTypeName: OutUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: FalseCell
+  - assembly: Assembly-CSharp
+    fullTypeName: Cell
+    methodName: TrueCell
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: HideMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: ShowMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: InUIManager
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFX
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFXInput
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.ContentPositioningBehaviour
+    methodName: PositionContentAtPlaneAnchor
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.PlaneFinderBehaviour
+    methodName: PerformHitTest
+  - assembly: Assembly-CSharp
+    fullTypeName: ARGameManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioController
+    methodName: PlaySFXInput
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.ContentPositioningBehaviour
+    methodName: PositionContentAtPlaneAnchor
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.PlaneFinderBehaviour
+    methodName: PerformHitTest
+  - assembly: Assembly-CSharp
+    fullTypeName: ARGameManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: ARGameManager
+    methodName: Speak
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.ContentPositioningBehaviour
+    methodName: PositionContentAtPlaneAnchor
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.PlaneFinderBehaviour
+    methodName: PerformHitTest
+  - assembly: Assembly-CSharp
+    fullTypeName: ARGameManager
+    methodName: MoveScene
+  - assembly: Assembly-CSharp
+    fullTypeName: ARGameManager
+    methodName: Speak
+  sceneClasses:
+    Assets/Scenes/AR1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1718}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1896}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2886}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 2918}
+    - Class: 114
+      Script: {instanceID: 2920}
+    - Class: 114
+      Script: {instanceID: 2922}
+    - Class: 114
+      Script: {instanceID: 2942}
+    - Class: 114
+      Script: {instanceID: 3002}
+    - Class: 114
+      Script: {instanceID: 3052}
+    - Class: 114
+      Script: {instanceID: 3140}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/AR2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1718}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1896}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2886}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 2918}
+    - Class: 114
+      Script: {instanceID: 2920}
+    - Class: 114
+      Script: {instanceID: 2922}
+    - Class: 114
+      Script: {instanceID: 2942}
+    - Class: 114
+      Script: {instanceID: 3002}
+    - Class: 114
+      Script: {instanceID: 3052}
+    - Class: 114
+      Script: {instanceID: 3140}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/AR3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1718}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1896}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2886}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 2918}
+    - Class: 114
+      Script: {instanceID: 2920}
+    - Class: 114
+      Script: {instanceID: 2922}
+    - Class: 114
+      Script: {instanceID: 2942}
+    - Class: 114
+      Script: {instanceID: 3002}
+    - Class: 114
+      Script: {instanceID: 3052}
+    - Class: 114
+      Script: {instanceID: 3140}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MainScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4736}
+    - Class: 114
+      Script: {instanceID: 5524}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/TitleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2336}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4512}
+    - Class: 114
+      Script: {instanceID: 4840}
+    - Class: 114
+      Script: {instanceID: 5052}
+    - Class: 114
+      Script: {instanceID: 5260}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl1-1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl1-2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl1-3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl1-4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl2-1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl2-2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl2-3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl2-4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl3-1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl3-2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl3-3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/lvl3-4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1768}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2026}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2706}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 3598}
+    - Class: 114
+      Script: {instanceID: 4472}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 5684}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 11ad40c30f85fd15ef55a4ef590e6cb3
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VuforiaScripts.dll
+    namespaceName: 
+    className: DefaultInitializationErrorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 352562fd641bd8bf793aa5b24fda9265
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 32f1f80e5b4a3419629fb3ac710820cc
+    assemblyName: VuforiaScripts.dll
+    namespaceName: 
+    className: DefaultObserverEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 11ad40c30f85fd15ef55a4ef590e6cb3
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 72095f3bdca6a5ced808052624115e3b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorInputListenerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6caf54c751fa12ba0e25512a0f3874da
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 8b31f0f575ac1bdf3b49534c083dcb53
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b9b961be4efce78bf33ec9d5bbace9a5
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetCaptureBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 66ea05c4caa307066167663f96b83036
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetCaptureRuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3b3be885ef3c77c1e9614139d5056921
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 485c0aa9066ead22d43c25f55c71542b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: BarcodeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9a218deaf67c80a135fcc7042640d906
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: BarcodePreview
+  - hash:
+      serializedVersion: 2
+      Hash: 417024ada65cfa4ede6e6bcb6896fa66
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CloudRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 050a9825ed50f0cc09dda1ee7d4ead8d
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ContentPositioningBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7b0fd59217cf36b367e076f27444ab
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CylinderTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f7d953566e53b019e765cc5fe7523e34
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CylinderTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultAreaTargetEventHandlerPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultInitializationErrorHandlerInternal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultInitializationErrorHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultObserverBehaviourPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DevicePoseBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: FieldOfViewAdjuster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideView2DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 2a892074b67edb2601eceb520fdb4c03
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideView3DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideViewCameraBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 297bb3168553c3955b1c71e1f37cf791
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideViewRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b61d4135b5efae4fcac353d663ea0e93
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d50b3d477089914ef7b97fdd460801fb
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Permissions
+    className: IOSPermissionRequester
+  - hash:
+      serializedVersion: 2
+      Hash: b14bdc19729a47a24f3184da695f52b1
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MaskOutBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: e2bf046e7aa603ee6a08744cee6887c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4366ae904be96224eeb38db7b94755d4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetVoxel
+  - hash:
+      serializedVersion: 2
+      Hash: 14e0b683b120c064839a9fd4e0717f88
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MidAirPositionerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d12f03dd84095c4848b601ee4270c9ac
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ModelTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 1026327f1181694ee5df032501f0d57e
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ModelTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 08f79e2667c78972bf15724e2d76e24a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MultiTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3947b7ffc69e60126b70f4da5d06e1b0
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MultiTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: e11d554bbb701d4f59a269e753cc2640
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PlaneFinderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 4467858096e9e8f2cc262e849dbddd58
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4366ae904be96224eeb38db7b94755d4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudVoxel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PreviewModelTurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: RuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 31ff38b2ac85aac17c323e82545ba5fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: RuntimeMeshRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 31ff38b2ac85aac17c323e82545ba5fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Utility
+    className: RuntimeMeshRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SelectionPropagation
+  - hash:
+      serializedVersion: 2
+      Hash: 4b4a397b7e31482c830bd48600dc3e2b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 4368692c8dda00421e5c33e0be0fbb39
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: SimulatedRuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 97afc9692e62050783efca6b0f1eb778
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: SimulatorDevicePoseProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SmartTerrainBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: TurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Core
+    className: UnityLifeCycleListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Rendering
+    className: VideoBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 345084488598477ea62871db2cc86def
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VirtualButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: c43060d33465f03a54fbc33425af73f4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 98c12c669db54aa4ee5dde953eca73fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Utility
+    className: VuforiaCoroutineUtility
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 08906d75f9263b7ddac3866f96fa15f1
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuMarkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 0b9696aa6025dc8654c74e5bf319f11a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuMarkPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARGameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 79a55d376df60eda184aff56aa9186bd
+    assemblyName: VuforiaScripts.dll
+    namespaceName: 
+    className: BarcodeOutlineBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OutUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 8fbc134fd506d97c845cf2b715231396
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: ddd331a9bcdb8c7cceb2928c381b5140
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioController
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 11ad40c30f85fd15ef55a4ef590e6cb3
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 72095f3bdca6a5ced808052624115e3b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorInputListenerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6caf54c751fa12ba0e25512a0f3874da
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 8b31f0f575ac1bdf3b49534c083dcb53
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b9b961be4efce78bf33ec9d5bbace9a5
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetCaptureBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 66ea05c4caa307066167663f96b83036
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetCaptureRuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3b3be885ef3c77c1e9614139d5056921
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 485c0aa9066ead22d43c25f55c71542b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: BarcodeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9a218deaf67c80a135fcc7042640d906
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: BarcodePreview
+  - hash:
+      serializedVersion: 2
+      Hash: 417024ada65cfa4ede6e6bcb6896fa66
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CloudRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 050a9825ed50f0cc09dda1ee7d4ead8d
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ContentPositioningBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7b0fd59217cf36b367e076f27444ab
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CylinderTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f7d953566e53b019e765cc5fe7523e34
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CylinderTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultAreaTargetEventHandlerPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultInitializationErrorHandlerInternal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultInitializationErrorHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultObserverBehaviourPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DevicePoseBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: FieldOfViewAdjuster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideView2DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 2a892074b67edb2601eceb520fdb4c03
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideView3DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideViewCameraBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 297bb3168553c3955b1c71e1f37cf791
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideViewRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b61d4135b5efae4fcac353d663ea0e93
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d50b3d477089914ef7b97fdd460801fb
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Permissions
+    className: IOSPermissionRequester
+  - hash:
+      serializedVersion: 2
+      Hash: b14bdc19729a47a24f3184da695f52b1
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MaskOutBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: e2bf046e7aa603ee6a08744cee6887c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4366ae904be96224eeb38db7b94755d4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetVoxel
+  - hash:
+      serializedVersion: 2
+      Hash: 14e0b683b120c064839a9fd4e0717f88
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MidAirPositionerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d12f03dd84095c4848b601ee4270c9ac
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ModelTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 1026327f1181694ee5df032501f0d57e
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ModelTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 08f79e2667c78972bf15724e2d76e24a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MultiTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3947b7ffc69e60126b70f4da5d06e1b0
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MultiTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: e11d554bbb701d4f59a269e753cc2640
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PlaneFinderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 4467858096e9e8f2cc262e849dbddd58
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4366ae904be96224eeb38db7b94755d4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudVoxel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PreviewModelTurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: RuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 31ff38b2ac85aac17c323e82545ba5fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: RuntimeMeshRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 31ff38b2ac85aac17c323e82545ba5fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Utility
+    className: RuntimeMeshRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SelectionPropagation
+  - hash:
+      serializedVersion: 2
+      Hash: 4b4a397b7e31482c830bd48600dc3e2b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 4368692c8dda00421e5c33e0be0fbb39
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: SimulatedRuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 97afc9692e62050783efca6b0f1eb778
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: SimulatorDevicePoseProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SmartTerrainBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: TurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Core
+    className: UnityLifeCycleListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Rendering
+    className: VideoBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 345084488598477ea62871db2cc86def
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VirtualButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: c43060d33465f03a54fbc33425af73f4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 98c12c669db54aa4ee5dde953eca73fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Utility
+    className: VuforiaCoroutineUtility
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 08906d75f9263b7ddac3866f96fa15f1
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuMarkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 0b9696aa6025dc8654c74e5bf319f11a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuMarkPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 32f1f80e5b4a3419629fb3ac710820cc
+    assemblyName: VuforiaScripts.dll
+    namespaceName: 
+    className: DefaultAreaTargetEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 27ec3360f0c0a6803ba71cc3106480b8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VuforiaScripts.dll
+    namespaceName: 
+    className: BoundingBoxRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8c9fda87b110051e76b6c5448b2b44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Cell
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TitleUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 11ad40c30f85fd15ef55a4ef590e6cb3
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 72095f3bdca6a5ced808052624115e3b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorInputListenerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6caf54c751fa12ba0e25512a0f3874da
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 8b31f0f575ac1bdf3b49534c083dcb53
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b9b961be4efce78bf33ec9d5bbace9a5
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetCaptureBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 66ea05c4caa307066167663f96b83036
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetCaptureRuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3b3be885ef3c77c1e9614139d5056921
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 485c0aa9066ead22d43c25f55c71542b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: BarcodeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9a218deaf67c80a135fcc7042640d906
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: BarcodePreview
+  - hash:
+      serializedVersion: 2
+      Hash: 417024ada65cfa4ede6e6bcb6896fa66
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CloudRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 050a9825ed50f0cc09dda1ee7d4ead8d
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ContentPositioningBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7b0fd59217cf36b367e076f27444ab
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CylinderTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f7d953566e53b019e765cc5fe7523e34
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CylinderTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultAreaTargetEventHandlerPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultInitializationErrorHandlerInternal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultInitializationErrorHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultObserverBehaviourPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DevicePoseBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: FieldOfViewAdjuster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideView2DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 2a892074b67edb2601eceb520fdb4c03
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideView3DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideViewCameraBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 297bb3168553c3955b1c71e1f37cf791
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideViewRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b61d4135b5efae4fcac353d663ea0e93
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d50b3d477089914ef7b97fdd460801fb
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Permissions
+    className: IOSPermissionRequester
+  - hash:
+      serializedVersion: 2
+      Hash: b14bdc19729a47a24f3184da695f52b1
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MaskOutBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: e2bf046e7aa603ee6a08744cee6887c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4366ae904be96224eeb38db7b94755d4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetVoxel
+  - hash:
+      serializedVersion: 2
+      Hash: 14e0b683b120c064839a9fd4e0717f88
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MidAirPositionerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d12f03dd84095c4848b601ee4270c9ac
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ModelTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 1026327f1181694ee5df032501f0d57e
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ModelTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 08f79e2667c78972bf15724e2d76e24a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MultiTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3947b7ffc69e60126b70f4da5d06e1b0
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MultiTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: e11d554bbb701d4f59a269e753cc2640
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PlaneFinderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 4467858096e9e8f2cc262e849dbddd58
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4366ae904be96224eeb38db7b94755d4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudVoxel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PreviewModelTurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: RuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 31ff38b2ac85aac17c323e82545ba5fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: RuntimeMeshRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 31ff38b2ac85aac17c323e82545ba5fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Utility
+    className: RuntimeMeshRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SelectionPropagation
+  - hash:
+      serializedVersion: 2
+      Hash: 4b4a397b7e31482c830bd48600dc3e2b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 4368692c8dda00421e5c33e0be0fbb39
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: SimulatedRuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 97afc9692e62050783efca6b0f1eb778
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: SimulatorDevicePoseProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SmartTerrainBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: TurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Core
+    className: UnityLifeCycleListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Rendering
+    className: VideoBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 345084488598477ea62871db2cc86def
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VirtualButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: c43060d33465f03a54fbc33425af73f4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 98c12c669db54aa4ee5dde953eca73fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Utility
+    className: VuforiaCoroutineUtility
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 08906d75f9263b7ddac3866f96fa15f1
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuMarkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 0b9696aa6025dc8654c74e5bf319f11a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuMarkPreview
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 4f2a5473504e4e35a0e5246db0f76c61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 91542308fc7320bd4ed20844daf46a1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 72095f3bdca6a5ced808052624115e3b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorInputListenerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6caf54c751fa12ba0e25512a0f3874da
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 8b31f0f575ac1bdf3b49534c083dcb53
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b9b961be4efce78bf33ec9d5bbace9a5
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetCaptureBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 66ea05c4caa307066167663f96b83036
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetCaptureRuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3b3be885ef3c77c1e9614139d5056921
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 485c0aa9066ead22d43c25f55c71542b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: BarcodeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9a218deaf67c80a135fcc7042640d906
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: BarcodePreview
+  - hash:
+      serializedVersion: 2
+      Hash: 417024ada65cfa4ede6e6bcb6896fa66
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CloudRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 050a9825ed50f0cc09dda1ee7d4ead8d
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ContentPositioningBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7b0fd59217cf36b367e076f27444ab
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CylinderTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f7d953566e53b019e765cc5fe7523e34
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: CylinderTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultAreaTargetEventHandlerPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultInitializationErrorHandlerInternal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultInitializationErrorHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DefaultObserverBehaviourPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: DevicePoseBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: FieldOfViewAdjuster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideView2DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 2a892074b67edb2601eceb520fdb4c03
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideView3DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideViewCameraBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 297bb3168553c3955b1c71e1f37cf791
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: GuideViewRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b61d4135b5efae4fcac353d663ea0e93
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d50b3d477089914ef7b97fdd460801fb
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Permissions
+    className: IOSPermissionRequester
+  - hash:
+      serializedVersion: 2
+      Hash: b14bdc19729a47a24f3184da695f52b1
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MaskOutBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: e2bf046e7aa603ee6a08744cee6887c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4366ae904be96224eeb38db7b94755d4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MeshSetVoxel
+  - hash:
+      serializedVersion: 2
+      Hash: 14e0b683b120c064839a9fd4e0717f88
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MidAirPositionerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d12f03dd84095c4848b601ee4270c9ac
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ModelTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 1026327f1181694ee5df032501f0d57e
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ModelTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 08f79e2667c78972bf15724e2d76e24a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MultiTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3947b7ffc69e60126b70f4da5d06e1b0
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: MultiTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: e11d554bbb701d4f59a269e753cc2640
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PlaneFinderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 4467858096e9e8f2cc262e849dbddd58
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4366ae904be96224eeb38db7b94755d4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PointCloudVoxel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: PreviewModelTurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8d41062bb467ec7486eeeb314989c8
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: RuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 31ff38b2ac85aac17c323e82545ba5fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: RuntimeMeshRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 31ff38b2ac85aac17c323e82545ba5fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Utility
+    className: RuntimeMeshRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SelectionPropagation
+  - hash:
+      serializedVersion: 2
+      Hash: 4b4a397b7e31482c830bd48600dc3e2b
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 4368692c8dda00421e5c33e0be0fbb39
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: SimulatedRuntimeMeshBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 97afc9692e62050783efca6b0f1eb778
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Simulator
+    className: SimulatorDevicePoseProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SmartTerrainBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: TurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Core
+    className: UnityLifeCycleListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Rendering
+    className: VideoBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 345084488598477ea62871db2cc86def
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VirtualButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: c43060d33465f03a54fbc33425af73f4
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 98c12c669db54aa4ee5dde953eca73fa
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal.Utility
+    className: VuforiaCoroutineUtility
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 08906d75f9263b7ddac3866f96fa15f1
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuMarkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 0b9696aa6025dc8654c74e5bf319f11a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuMarkPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 157ff2e88bf902500fb0e04ca10c4fdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FullChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: ee5e00f4d3912e3767d1ceffc3862764
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InUIManager
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/TitleScene.unity
+  - Assets/Scenes/MainScene.unity
+  - Assets/Scenes/lvl1-1.unity
+  - Assets/Scenes/lvl1-2.unity
+  - Assets/Scenes/lvl1-3.unity
+  - Assets/Scenes/lvl1-4.unity
+  - Assets/Scenes/lvl2-1.unity
+  - Assets/Scenes/lvl2-2.unity
+  - Assets/Scenes/lvl2-3.unity
+  - Assets/Scenes/lvl2-4.unity
+  - Assets/Scenes/lvl3-1.unity
+  - Assets/Scenes/lvl3-2.unity
+  - Assets/Scenes/lvl3-3.unity
+  - Assets/Scenes/lvl3-4.unity
+  - Assets/Scenes/AR1.unity
+  - Assets/Scenes/AR2.unity
+  - Assets/Scenes/AR3.unity
+  playerPath: D:/Binus Lesson/Enrichment/App/ARnimal Pixel/ARnimalPx+Ver25.apk

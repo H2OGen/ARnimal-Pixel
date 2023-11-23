@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6f5d633851aa0fa41b1b28aea22a962e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans Myanmar200May252019FontCreator1100240832-bit
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fc6dc5b2960ab014a89354713a29f44e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

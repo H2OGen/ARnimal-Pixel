@@ -1,0 +1,2 @@
+D:\Binus Lesson\Enrichment\App\ARnimal Pixel\obj\Debug\UnityEditor.TestRunner.csproj.AssemblyReference.cache
+D:\Binus Lesson\Enrichment\App\ARnimal Pixel\obj\Debug\UnityEditor.TestRunner.csproj.CoreCompileInputs.cache

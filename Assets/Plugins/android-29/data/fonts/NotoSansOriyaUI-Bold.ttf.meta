@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6c01583bd8f469d40b4664e0c62d931e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans Oriya UI101uh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: da616f6437c97324592bfeefa7422298, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

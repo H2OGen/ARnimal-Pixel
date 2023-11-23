@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.DefaultCompany.ARnimalPixel",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 10154,
+      "versionName": "10.15.4",
+      "enabled": true,
+      "outputFile": "launcher-release.apk"
+    }
+  ]
+}

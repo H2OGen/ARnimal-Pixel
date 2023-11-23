@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e3a1867b41a87424495ca027f9e78588
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Serif Gujarati102uh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 12b33df5a7499f045855ba8278f33332, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

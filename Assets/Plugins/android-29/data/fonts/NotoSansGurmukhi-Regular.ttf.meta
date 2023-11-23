@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9a2aef408d8e4e14f8c6383ff3c08a9f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans Gurmukhi103uh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d2dab48ed13bd204d8385d2a7ce77986, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

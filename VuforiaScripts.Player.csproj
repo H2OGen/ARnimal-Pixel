@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A163A753-BC9C-1BA2-2F1F-C9DE0E61BF63}</ProjectGuid>
+    <ProjectGuid>{37412EE0-C600-0463-4B67-E3EFBC7FD690}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VuforiaScripts</AssemblyName>
@@ -644,7 +644,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{59A189F6-363E-451C-3CEB-2A14A2C8EB02}</Project>
+      <Project>{18B41518-76C4-00D2-9137-6DD08DABC350}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

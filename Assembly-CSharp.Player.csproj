@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{37E08590-9635-1D0B-7F8A-69E5F2EDE6C7}</ProjectGuid>
+    <ProjectGuid>{BEA1A6AD-95DA-8C1D-0A94-02F22F4A33D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -668,31 +668,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{9DBE2801-9326-33E8-F818-A6494FF75CD8}</Project>
+      <Project>{30A9E7BB-9403-C1F2-6DBE-A2EF4E37EBFC}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{9599AF04-D90B-32CE-5305-7DA322C9B146}</Project>
+      <Project>{3EFFF4E5-702B-4F85-72C5-8DE35C354481}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{B4F909AA-001F-7FA0-3FAF-1F2B938850C0}</Project>
+      <Project>{07ED8567-BA4D-D977-EC7A-C133E4C142F7}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{66A6D417-1CAF-0129-57BD-C82CEDF83DBF}</Project>
+      <Project>{27F83BC9-5319-37F8-876D-5F77D65A7D7C}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{59A189F6-363E-451C-3CEB-2A14A2C8EB02}</Project>
+      <Project>{18B41518-76C4-00D2-9137-6DD08DABC350}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="VuforiaScripts.Player.csproj">
-      <Project>{A163A753-BC9C-1BA2-2F1F-C9DE0E61BF63}</Project>
+      <Project>{37412EE0-C600-0463-4B67-E3EFBC7FD690}</Project>
       <Name>VuforiaScripts.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{27C55D29-22E6-E16E-1E02-A37853CEE055}</Project>
+      <Project>{DF09FA49-2888-043F-38C0-C92ED0A8F341}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
   </ItemGroup>
